@@ -25,3 +25,7 @@ class TestCircle:
     expected = 2 * math.pi * self.circle.radius
     assert result == expected
  
+
+  # making use of my_rectangle from conftest.py being global
+  def test_not_same_area(self, my_rectangle):
+    assert self.circle.area() != my_rectangle.area()
