@@ -10,7 +10,6 @@ def test_add_strings():
     result = my_functions.add("i like", " burgers")
     assert result == "i like burgers"
 def test_divide():
-
     result = my_functions.divide(10, 5)
     assert result == 2
 
