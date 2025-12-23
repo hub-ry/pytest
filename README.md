@@ -3,4 +3,6 @@
 
 # 1.) Function Based
 
-# 2.) Class 
+# 2.) Class (Object Oriented)
+
+# 3.) Fixtures (Global Test Variables)
